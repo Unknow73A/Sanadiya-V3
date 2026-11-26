@@ -1,0 +1,14 @@
+Sanadiya (copie de test) : application web installable (PWA)
+
+POURQUOI CHROME N'AFFICHAIT PAS "INSTALLER"
+Chrome exige : un manifeste, un service worker, des icônes PNG et une adresse en HTTPS.
+Ce zip contient maintenant les 3 premiers. Il faut encore l'héberger en HTTPS.
+
+COMMENT L'INSTALLER
+1. Mettre le contenu du dossier sur un hébergement HTTPS (GitHub Pages, Netlify, Cloudflare Pages, Vercel...), à la racine d'un site ou d'un sous-dossier.
+2. Ouvrir l'adresse dans Chrome : le menu (3 points) propose "Installer l'application" ou "Ajouter à l'écran d'accueil".
+Un fichier ouvert directement depuis le téléphone (file://) ou l'aperçu d'un artifact ne peut pas être installé.
+
+TEST SUR ORDINATEUR : python3 -m http.server 8000 dans ce dossier, puis http://localhost:8000 (localhost est accepté sans HTTPS).
+
+Contenu rédigé par Claude (récits, dou'a par cause) : à faire vérifier par l'imam avant toute publication.
